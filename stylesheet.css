@@ -1,0 +1,59 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+}
+#slider{
+    width:300px;
+    margin:5px auto;
+    font-size: 30px;
+    color:peru;
+}
+.container{
+    margin:5px auto;
+    height:40px;
+    width: 40px;
+}
+#circle{
+    height:4px;
+    width:4px;
+    background-color: black;
+    border-radius: 60%;
+    margin:4px auto;
+    position:relative;
+    transform:translate(-50%,2px);
+    /*-50% means the location will be moved based on the shape itself*/
+ 
+}
+#win{
+
+    border:1px solid antiquewhite;
+    cursor:crosshair;
+    background-color: white;
+    border:1px solid antiquewhite;
+    position:relative;
+    left:200px;
+    top:50px;
+}
+
+.row{
+    margin:50px auto;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    text-align: center;
+    height:40px;
+    width: 70px;
+    margin: 10px 50px;
+    color: rgb(33, 130, 72);
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border:1px solid peachpuff;
+}
+
+.button:active{
+    background-color: rgb(222, 138, 138);
+}
